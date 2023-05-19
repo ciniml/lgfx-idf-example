@@ -10,7 +10,7 @@
 
 #include <LovyanGFX.hpp>
 
-void app_main(void)
+extern "C" void app_main(void)
 {
     while(true) {
         printf("Hello world!\n");
